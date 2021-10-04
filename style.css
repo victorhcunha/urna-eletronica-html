@@ -94,6 +94,16 @@ body {
   height: 50px;
 }
 
+.numero {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+}
+
 .d-1-4 {
   flex: 1;
   line-height: 30px;
