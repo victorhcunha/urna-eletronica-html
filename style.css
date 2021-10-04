@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .urna {
@@ -86,6 +87,7 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .d-1-3 {
