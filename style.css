@@ -72,6 +72,29 @@ body {
 
 .d-1-left {
   flex: 1;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.d-1-1 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.d-1-2 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.d-1-3 {
+  height: 50px;
+}
+
+.d-1-4 {
+  flex: 1;
+  line-height: 30px;
 }
 
 .d-1-right {
