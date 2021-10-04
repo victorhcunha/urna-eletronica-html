@@ -1,3 +1,15 @@
+@keyframes pisca {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
 body {
   margin: 0;
   display: flex;
@@ -102,6 +114,12 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 25px;
+}
+
+.pisca {
+  animation-name: pisca;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .d-1-4 {
